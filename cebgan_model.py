@@ -15,8 +15,8 @@ parser.add_argument('--drop_rate', type =float, default=0.0)
 parser.add_argument('--imgH', type =int, default= 128)
 parser.add_argument('--imgW', type =int, default= 128)
 parser.add_argument('--imgCh', type =int, default= 3)
-parser.add_argument('--resumeG_from', type =str, default='/opt/carla-simulator/PythonAPI/examples/new-models/netG_ep101.pth') # exp16 - ep41
-parser.add_argument('--resumeD_from', type =str, default='/opt/carla-simulator/PythonAPI/examples/new-models/netD_ep101.pth')
+parser.add_argument('--resumeG_from', type =str, default='/opt/carla-simulator/PythonAPI/examples/models/netG_ep101.pth')
+parser.add_argument('--resumeD_from', type =str, default='/opt/carla-simulator/PythonAPI/examples/models/netD_ep101.pth')
 args = parser.parse_args()
 
 
